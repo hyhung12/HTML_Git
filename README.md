@@ -33,6 +33,10 @@ unordered list    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  order
 - CSS: change font, color
 - Responsive: different layouts for different platform(mobile, desktop) == Adaptive layout
 ```
+.gitignore -> don't upload files to GitHub
 git branch -> check available branches
 git checkout <new_branch> -> move to new branch
 git merge <branch_to_merge>
+
+git remote add origin https://github.com/hyhung12/Test_Repo3.git
+git push -u origin main
