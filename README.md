@@ -22,4 +22,13 @@
     ```
     
 -> HTML is about adding element tag
-    
+```
+-                     1.
+-                     2.
+-                     3.
+```
+unordered list    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  ordered list
+-> Make coding as habit
+
+- CSS: change font, color
+- Responsive: different layouts for different platform(mobile, desktop)
