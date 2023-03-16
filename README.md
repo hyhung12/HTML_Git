@@ -31,4 +31,4 @@ unordered list    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  order
 -> Make coding as habit
 
 - CSS: change font, color
-- Responsive: different layouts for different platform(mobile, desktop)
+- Responsive: different layouts for different platform(mobile, desktop) == Adaptive layout
