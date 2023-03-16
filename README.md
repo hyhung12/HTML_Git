@@ -4,7 +4,7 @@
     <HTML element HTML attribute>
     ```
     
-- HTML boilerplate (presing ! in VSCode) -> like a hamburger
+- HTML boilerplate (saved as abc.html extension and presing ! in VSCode) -> like a hamburger
 
     ```
     <!DOCTYPE html>
@@ -20,4 +20,6 @@
     </body>
     </html>
     ```
+    
+-> HTML is about adding element tag
     
