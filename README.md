@@ -32,3 +32,7 @@ unordered list    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  order
 
 - CSS: change font, color
 - Responsive: different layouts for different platform(mobile, desktop) == Adaptive layout
+```
+git branch -> check available branches
+git checkout <new_branch> -> move to new branch
+git merge <branch_to_merge>
