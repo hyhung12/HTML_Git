@@ -40,9 +40,33 @@ git merge <branch_to_merge>
 
 git remote add origin https://github.com/hyhung12/Test_Repo3.git
 git push -u origin main
-
+```
 - Update method
 ```
 db.<collection_name>.updateOne({_id:1}, {$set: {stock:32}})
 ```
 - One-to-many (one product with many reviews, one user with many comments)
+- Delete a database: switch to database
+```
+db.dropDatabase()
+```
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://0.0.0.0:27017/fruitsDB');
+
+const fruitSchema = new mongoose.Schema ({
+    name: String,
+    rate: Number,
+    review: String
+});
+
+const Fruit = mongoose.model('Fruit', fruitSchema);
+
+const fruit = new Fruit ({
+    name: "Apple-2",
+    rating: 7,
+    review: "apple is apple"
+});
+
+fruit.save();
+```
+
