@@ -69,5 +69,8 @@ const fruit = new Fruit ({
 });
 
 fruit.save();
+Fruit.insertMany([kiwi, orange, banana], function(err){
+if (err){console.log('error')}else{console.log('successful')}});
+Fruit.find(function(err, fruits){if (err){console.log('error')}else{console.log(fruits)}});
 ```
 
