@@ -50,6 +50,7 @@ db.<collection_name>.updateOne({_id:1}, {$set: {stock:32}})
 ```
 db.dropDatabase()
 ```
+```
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://0.0.0.0:27017/fruitsDB');
 
