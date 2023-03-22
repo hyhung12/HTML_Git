@@ -40,3 +40,7 @@ git merge <branch_to_merge>
 
 git remote add origin https://github.com/hyhung12/Test_Repo3.git
 git push -u origin main
+
+- Update method
+```
+db.<collection_name>.updateOne({_id:1}, {$set: {stock:32}})
