@@ -44,3 +44,5 @@ git push -u origin main
 - Update method
 ```
 db.<collection_name>.updateOne({_id:1}, {$set: {stock:32}})
+```
+- One-to-many (one product with many reviews, one user with many comments)
